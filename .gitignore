@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / runtime files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+*.log
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
+
+# Agent & Assistant Configuration
+.antigravity/
+CLAUDE.md
+.cursor*
+*prompt*
+rules.md
+
+# Large Data Partitions (Raw & Processed)
+data/raw/
+data/processed/
+
+# Model Artifacts (Track only production calibrated model)
+models/*.joblib
+!models/lgbm_calibrated.joblib
